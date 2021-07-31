@@ -37,7 +37,8 @@ function check(){
 
         }
         //profit
-        else{
+        else if(sp>cp)
+        {
             const profit=((sp-cp)*quantity).toFixed(2);
             const profitPer=((sp-cp)*100/cp).toFixed(2);
             showMessage(`You gained ${profitPer}%. Your total gain is ${profit}`);
@@ -46,6 +47,9 @@ function check(){
                 body.style.background="url(gifs/happy.gif)";
             }
 
+        }
+        else{
+            showMessage(`There is no change in stock price so no profit or loss`);
         }
     }else{
         showMessage(`Please enter values greater than 0 (Only numbers are valid in above fields)`)
