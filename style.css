@@ -14,3 +14,31 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
+
+.heading {
+
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+
+
+}
+
+.hero {
+    /* background: url(img/stonks.jpg); */
+}
+
+.input {
+    font-size: 1.3rem;
+}
+
+#subBtn {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
