@@ -31,7 +31,9 @@ main {
 }
 
 .hero {
-    /* background: url(img/stonks.jpg); */
+    background: url(img/stonks.jpg);
+    border-radius: 0.5rem;
+    padding: 1rem 0;
 }
 
 .input {
@@ -41,4 +43,12 @@ main {
 #subBtn {
     font-size: 1.3rem;
     margin-top: 2rem;
+}
+
+.message {
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
 }
