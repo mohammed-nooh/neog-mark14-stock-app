@@ -34,6 +34,7 @@ main {
     background: url(img/stonks.jpg);
     border-radius: 0.5rem;
     padding: 1.5rem 0rem;
+    object-fit: cover;
 }
 
 .input {
@@ -47,7 +48,10 @@ main {
 }
 
 .message {
+    max-width: 80%;
+    margin: auto;
     margin-top: 2rem;
+
 }
 
 .hidden {
