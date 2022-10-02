@@ -13,6 +13,7 @@ function showMessage(text){
 }
 
 
+
 function check(){
     heading.style.color="black";
     body.style.background="none";
